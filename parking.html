@@ -43,40 +43,7 @@
       </p>
     </div>
 
-    <!-- 핵심 스펙 테이블 -->
-    <div class="bg-white border border-slate-200 rounded-2xl p-5 mb-6 shadow-sm">
-      <h2 class="text-sm font-extrabold text-slate-900 mb-3 flex items-center gap-1.5">
-        <span class="text-sky-600">■</span> 주차장 및 물류 진입 스펙
-      </h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-sm">
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">지하 램프 높이</div>
-          <div class="font-bold text-sky-700">제한높이 2.7M (화물 램프)</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">지상 진입 GATE 1</div>
-          <div class="font-bold text-slate-800">제한높이 2.3M</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">하역 트럭 진입</div>
-          <div class="font-bold text-sky-700">3.5톤 마이티 트럭 진입 가능</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">주차 가능 층수</div>
-          <div class="font-bold text-slate-800">지하 2층 ~ 지하 5층</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">엘리베이터 연계</div>
-          <div class="font-bold text-slate-800">하역장 대형 화물 E/V 직결</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">월 정기 주차</div>
-          <div class="font-bold text-slate-800">입점사 할인 등록 가능</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 이미지 갤러리 (상단 1장 + 하단 2장 좌우 배치) -->
+    <!-- 이미지 갤러리 (상단 1장 풀와이드 + 하단 2장 좌우 배치) -->
     <section class="mb-6 space-y-3">
       <!-- 1. 상단 대표 사진 (풀와이드) -->
       <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
@@ -103,18 +70,106 @@
       </div>
     </section>
 
-    <!-- 공간 상세 안내 박스 -->
-    <div class="bg-white border border-slate-200 rounded-2xl p-6 mb-8 shadow-sm space-y-4">
-      <h3 class="text-base font-extrabold text-slate-900">🚛 하역 및 주차 등록 가이드</h3>
-      <p class="text-sm text-slate-600 leading-relaxed">
-        • <strong>화물차량 진입 안내:</strong> 1톤 표준 탑차는 물론 3.5톤 중형 트럭까지 지하 하역장으로 비나 눈을 맞지 않고 직접 들어와 작업할 수 있습니다.<br>
-        • <strong>무단차 수평 하역:</strong> 하역 데크에서 대형 화물 전용 엘리베이터까지 계단이나 문턱이 없어 롤테이너, 핸드카트(대차), 파레트 이동이 논스톱으로 진행됩니다.<br>
-        • <strong>입점사 월 주차 신청:</strong> 임대차 계약 체결 후 사업자등록증과 차량등록증을 지참하여 관리사무소에 신청하시면 입점 사업자 할인 요금이 적용됩니다.<br>
-        • <strong>방문객 할인권:</strong> 입점 사업자는 1시간권, 일일권 등 방문 고객용 할인 주차권을 관리단을 통해 저렴하게 구매하여 배부할 수 있습니다.
+    <!-- [레이아웃 1] 기본 주차·물류 제원표 -->
+    <div class="bg-white border border-slate-200 rounded-2xl p-6 mb-8 shadow-sm">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="text-xl">📋</span>
+        <h2 class="text-base font-extrabold text-slate-900">기본 주차·물류 제원표</h2>
+      </div>
+      <div class="divide-y divide-slate-100 text-sm">
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">소재 건물</span>
+          <span class="col-span-2 sm:col-span-3 font-semibold text-slate-900">가든파이브 라이프동</span>
+        </div>
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">지하 화물 램프</span>
+          <span class="col-span-2 sm:col-span-3 font-bold text-sky-600">제한높이 2.7m (GATE 2 화물 전용)</span>
+        </div>
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">지상 일반 진입</span>
+          <span class="col-span-2 sm:col-span-3 font-semibold text-slate-800">제한높이 2.3m (GATE 1)</span>
+        </div>
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">하역 가능 차량</span>
+          <span class="col-span-2 sm:col-span-3 font-bold text-teal-600">스타렉스, 1톤 탑차, 3.5톤 중형 트럭 진입 가능</span>
+        </div>
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">화물 승강기</span>
+          <span class="col-span-2 sm:col-span-3 text-slate-700">지하 하역장 직결 무단차 수평 이동 동선</span>
+        </div>
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">월 정기 주차</span>
+          <span class="col-span-2 sm:col-span-3 font-bold text-slate-900">입점 사업자 할인 등록 / 방문 할인권 지원</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- [레이아웃 2] 핵심 특징 1~4번 카드 -->
+    <div class="mb-8">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="text-xl">✨</span>
+        <h2 class="text-base font-extrabold text-slate-900">라이프 지하 주차 및 물류 핵심 특징</h2>
+      </div>
+
+      <div class="space-y-3">
+        <!-- 1 -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm flex items-start gap-4">
+          <span class="bg-sky-100 text-sky-700 font-extrabold text-sm w-7 h-7 rounded-lg flex items-center justify-center shrink-0 mt-0.5">1</span>
+          <div>
+            <h3 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1">지하 2.7m 광폭 화물 램프 확보</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              화물차 전용 GATE 2 진입로는 2.7m 높이로 설계되어 일반 탑차는 물론 3.5톤 중형 화물 트럭도 걸림 없이 안전하게 진입할 수 있습니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm flex items-start gap-4">
+          <span class="bg-sky-100 text-sky-700 font-extrabold text-sm w-7 h-7 rounded-lg flex items-center justify-center shrink-0 mt-0.5">2</span>
+          <div>
+            <h3 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1">비·눈 걱정 없는 실내 지하 하역장</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              우천이나 동절기 눈보라에도 훼손 없이 물품을 상·하차할 수 있는 대형 실내 전용 하역 구역을 완비하고 있습니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm flex items-start gap-4">
+          <span class="bg-sky-100 text-sky-700 font-extrabold text-sm w-7 h-7 rounded-lg flex items-center justify-center shrink-0 mt-0.5">3</span>
+          <div>
+            <h3 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1">대형 화물 승강기 무단차 직결 동선</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              하역 데크에서 대형 화물 승강기, 그리고 호실 앞까지 문턱이나 계단이 없어 롤테이너, 핸드카트(대차), 파레트 이동이 논스톱으로 연결됩니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm flex items-start gap-4">
+          <span class="bg-sky-100 text-sky-700 font-extrabold text-sm w-7 h-7 rounded-lg flex items-center justify-center shrink-0 mt-0.5">4</span>
+          <div>
+            <h3 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1">입점사 월 주차 할인 & 방문 할인권 구매</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              관리사무소를 통해 입점 사업자 월 정기 주차 할인을 적용받을 수 있으며, 내방 고객을 위한 사전 할인권도 저렴하게 구매할 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- [레이아웃 3] 노란색 차량 진입 높이 주의 박스 -->
+    <div class="bg-amber-50/70 border border-amber-200 rounded-2xl p-5 mb-8 text-sm">
+      <div class="flex items-center gap-1.5 font-extrabold text-amber-900 mb-2">
+        <span>⚠️</span>
+        <span>화물차량 진입 시 게이트 확인 필수</span>
+      </div>
+      <p class="text-amber-900/90 leading-relaxed text-xs sm:text-sm">
+        가든파이브 라이프는 게이트별 진입 높이가 다릅니다. <strong class="text-amber-950 font-extrabold">지상 GATE 1은 2.3m</strong>이므로 승용차 및 승합차 위주로 진입하시고, <strong class="text-amber-950 font-extrabold">탑차 및 화물차량은 반드시 2.7m 높이가 확보된 지하 GATE 2</strong>로 진입하셔야 안전합니다.
       </p>
     </div>
 
-    <!-- 푸터 -->
+    <!-- 하단 중개업소 푸터 -->
     <footer class="bg-slate-900 text-slate-400 rounded-2xl p-6 text-sm leading-relaxed mb-6">
       <strong class="text-white text-base block mb-2">시카고공인중개사사무소</strong>
       <p>• 중개등록번호: 11710-2022-00213</p>
