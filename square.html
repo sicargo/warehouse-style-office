@@ -16,18 +16,18 @@
 
   <!-- 상단 네비게이션 -->
   <nav class="bg-white border-b border-slate-200 sticky top-0 z-40">
-    <div class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
+    <div class="max-w-3xl mx-auto px-4 h-14 flex items-center justify-between">
       <a href="/" class="flex items-center text-slate-600 hover:text-slate-900 font-bold text-sm gap-1">
-        <span class="text-lg">←</span> 전체 목록
+        <span class="text-base">←</span> 전체 목록
       </a>
-      <span class="font-extrabold text-slate-900">시카고부동산</span>
+      <span class="font-extrabold text-slate-900 text-base">시카고부동산</span>
       <a href="tel:010-5024-8456" class="bg-sky-50 text-sky-700 border border-sky-200 font-bold px-3 py-1.5 rounded-full text-xs">
-        📞 문의
+        📞 상담 연결
       </a>
     </div>
   </nav>
 
-  <main class="max-w-3xl mx-auto px-4 pt-8">
+  <main class="max-w-3xl mx-auto px-4 pt-6">
 
     <!-- 페이지 헤더 -->
     <div class="mb-6">
@@ -36,7 +36,7 @@
         <span class="bg-slate-200 text-slate-700 text-xs font-bold px-2.5 py-1 rounded">냉·난방 완비</span>
       </div>
       <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-snug">
-        정방형(正方形) 복합 유닛<br>실측 및 공간 안내
+        정방형(正方形) 복합 유닛<br>현장 실측 및 공간 안내
       </h1>
       <p class="text-slate-500 text-sm mt-2">
         데스크 상주 업무 공간과 물품 적재 랙을 5:5로 분리 배치하기 가장 최적화된 타입입니다.
@@ -44,21 +44,21 @@
     </div>
 
     <!-- 핵심 스펙 테이블 -->
-    <div class="bg-white border border-slate-200 rounded-2xl p-5 mb-8 shadow-sm">
+    <div class="bg-white border border-slate-200 rounded-2xl p-5 mb-6 shadow-sm">
       <h2 class="text-sm font-extrabold text-slate-900 mb-3 flex items-center gap-1.5">
-        <span class="text-sky-600">■</span> 핵심 호실 요약 스펙
+        <span class="text-sky-600">■</span> 핵심 요약 스펙
       </h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 text-sm">
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-sm">
         <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
           <div class="text-slate-400 text-xs mb-1">공간 구조</div>
           <div class="font-bold text-slate-800">정방형 (정사각 비율)</div>
         </div>
         <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
           <div class="text-slate-400 text-xs mb-1">냉·난방 공급</div>
-          <div class="font-bold text-sky-700">중앙 공조 덕트 인입</div>
+          <div class="font-bold text-sky-700">중앙 공조 덕트 완비</div>
         </div>
         <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">상주 근무</div>
+          <div class="text-slate-400 text-xs mb-1">상주 인원</div>
           <div class="font-bold text-slate-800">1~2인 상시 근무 적합</div>
         </div>
         <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
@@ -66,43 +66,44 @@
           <div class="font-bold text-slate-800">일반·간이·법인 가능</div>
         </div>
         <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">물류 연계</div>
-          <div class="font-bold text-slate-800">화물 E/V 논스톱 직결</div>
+          <div class="text-slate-400 text-xs mb-1">물류 하역</div>
+          <div class="font-bold text-slate-800">화물 E/V 무단차 직결</div>
         </div>
         <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">복층 시공</div>
-          <div class="font-bold text-slate-800">호실별 복층 랙 설치</div>
+          <div class="text-slate-400 text-xs mb-1">복층 설비</div>
+          <div class="font-bold text-slate-800">호실별 복층 랙 완비</div>
         </div>
       </div>
     </div>
 
-    <!-- 실사진 갤러리 3장 -->
-    <section class="space-y-6 mb-8">
-      <h2 class="text-lg font-extrabold text-slate-900">📷 현장 실측 사진 (3장)</h2>
-
+    <!-- 이미지 갤러리 (상단 1장 + 하단 2장 좌우 배치) -->
+    <section class="mb-6 space-y-3">
+      <!-- 1. 상단 대표 사진 (풀와이드) -->
       <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
-        <img src="storage-office-square.jpg" alt="정방형 창고형 사무실 이커머스 세팅" class="w-full h-auto object-cover max-h-96">
-        <div class="p-4 bg-slate-50 border-t border-slate-100 text-sm text-slate-700">
-          <strong>▲ 실측 사진 1:</strong> 사무 데스크 2조, 패킹 작업대, 벽면 랙이 조화롭게 배치된 이커머스 실제 입주 현장입니다.
+        <img src="storage-office-square.jpg" alt="정방형 유닛 이커머스 실제 운영 세팅" class="w-full h-64 sm:h-80 object-cover">
+        <div class="px-4 py-2.5 bg-slate-50 border-t border-slate-100 text-xs sm:text-sm font-medium text-slate-700">
+          ▲ 대표 실측: 업무 데스크, 패킹 작업대, 적재 랙이 집약된 이커머스 실제 입주 현장
         </div>
       </div>
 
-      <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
-        <img src="storage-office-square-02.jpg" alt="정방형 창고형 사무실 미팅 및 복층 구조" class="w-full h-auto object-cover max-h-96">
-        <div class="p-4 bg-slate-50 border-t border-slate-100 text-sm text-slate-700">
-          <strong>▲ 실측 사진 2:</strong> 중앙 미팅 테이블과 상부 철골 복층 랙이 시공된 다목적 복합 활용 유닛입니다.
+      <!-- 2. 하단 서브 사진 (좌우 2장 양 옆 배치) -->
+      <div class="grid grid-cols-2 gap-3">
+        <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm flex flex-col">
+          <img src="storage-office-square-02.jpg" alt="상담 테이블 및 복층 선반" class="w-full h-36 sm:h-48 object-cover">
+          <div class="p-2.5 bg-slate-50 border-t border-slate-100 text-xs text-slate-600 flex-1 flex items-center">
+            ▲ 상담 테이블 & 상부 복층 선반 구조
+          </div>
         </div>
-      </div>
-
-      <div class="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
-        <img src="storage-office-linear-04.jpg" alt="정방형 유닛 철골 복층 프레임 하부" class="w-full h-auto object-cover max-h-96">
-        <div class="p-4 bg-slate-50 border-t border-slate-100 text-sm text-slate-700">
-          <strong>▲ 실측 사진 3:</strong> 튼튼한 H빔/각파이프 복층 프레임 하부로 파레트 및 대형 화물 수납이 가능합니다.
+        <div class="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm flex flex-col">
+          <img src="storage-office-linear-04.jpg" alt="철골 복층 하부 적재 공간" class="w-full h-36 sm:h-48 object-cover">
+          <div class="p-2.5 bg-slate-50 border-t border-slate-100 text-xs text-slate-600 flex-1 flex items-center">
+            ▲ 견고한 철골 복층 하부 적재 공간
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- 상세 설명 박스 -->
+    <!-- 공간 상세 안내 박스 -->
     <div class="bg-white border border-slate-200 rounded-2xl p-6 mb-8 shadow-sm space-y-4">
       <h3 class="text-base font-extrabold text-slate-900">💡 공간 레이아웃 및 실측 특징</h3>
       <p class="text-sm text-slate-600 leading-relaxed">
