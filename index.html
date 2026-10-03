@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>창고형 사무실은 시카고부동산 | 가든파이브 라이프 냉·난방 완비</title>
-  <meta name="description" content="가든파이브 냉·난방 완비 창고형 사무실 전문 시카고부동산. 정방형·장방형 실측 매물, 2.7M 지하 램프 및 3.5톤 화물 하역장 진입 실사진, 입주 FAQ.">
+  <title>창고형 사무실은 시카고부동산 | 가든파이브 라이프</title>
+  <meta name="description" content="가든파이브 냉·난방 완비 창고형 사무실 전문 시카고부동산. 정방형·장방형 실측 매물, 2.7M 화물 하역장 진입 실사진, 입주 FAQ.">
   <meta name="keywords" content="창고형 사무실, 가든파이브 창고형 사무실, 가든파이브 창고, 문정동 창고, 장지역 사무실, 시카고부동산">
   <meta name="robots" content="index, follow">
   <meta name="naver-site-verification" content="" />
@@ -15,137 +15,207 @@
   <meta property="og:description" content="사무와 대량 적재를 동시에! 중앙 냉·난방 공급 특화 유닛 현장 실사진 확인">
   <meta property="og:image" content="storage-office-square.jpg">
 
-  <!-- Tailwind CSS & Pretendard -->
+  <!-- Tailwind CSS & Pretendard Font -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <style>
     body { font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif; }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800 antialiased pb-28">
+<body class="bg-neutral-900 text-neutral-100 antialiased pb-28">
 
-  <!-- 상단 네비 -->
-  <nav class="bg-white border-b border-slate-200 sticky top-0 z-40">
+  <!-- 상단 네비게이션 (반투명 다크 글래스) -->
+  <nav class="bg-neutral-900/90 backdrop-blur border-b border-neutral-800 sticky top-0 z-40">
     <div class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-      <a href="/" class="text-xl font-extrabold text-slate-900 tracking-tight">시카고부동산</a>
-      <a href="tel:010-5024-8456" class="bg-sky-50 text-sky-700 hover:bg-sky-100 border border-sky-200 font-bold px-4 py-2 rounded-full text-sm transition">
-        📞 상담 연결
+      <div class="flex items-center gap-2">
+        <span class="w-2.5 h-2.5 rounded-full bg-amber-500 animate-pulse"></span>
+        <a href="/" class="text-lg font-black tracking-tight text-white">시카고부동산</a>
+      </div>
+      <a href="tel:010-5024-8456" class="bg-amber-500 hover:bg-amber-400 text-neutral-950 font-black px-4 py-2 rounded-lg text-xs sm:text-sm transition shadow-lg shadow-amber-500/20">
+        📞 빠른 전화 상담
       </a>
     </div>
   </nav>
 
-  <!-- 히어로 헤더 -->
-  <header class="bg-gradient-to-b from-white to-slate-100 border-b border-slate-200 py-12 px-4 text-center">
-    <div class="max-w-3xl mx-auto">
-      <span class="inline-block bg-sky-100 text-sky-800 text-xs font-bold px-3 py-1.5 rounded-full mb-3">
-        송파 문정동 가든파이브 라이프 전문
-      </span>
-      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight mb-3">
-        창고형 사무실은<br><span class="text-sky-600">시카고부동산</span>
+  <!-- [색다른 디자인 핵심] 실사진 배경 시네마틱 헤더 -->
+  <header class="relative overflow-hidden border-b border-neutral-800">
+    <!-- 배경 이미지 & 다크 그라데이션 오버레이 -->
+    <div class="absolute inset-0 z-0">
+      <img src="storage-office-square.jpg" alt="가든파이브 창고형 사무실 전경" class="w-full h-full object-cover filter brightness-[0.38] contrast-125 scale-105">
+      <div class="absolute inset-0 bg-gradient-to-t from-neutral-900 via-neutral-900/60 to-transparent"></div>
+    </div>
+
+    <!-- 헤더 콘텐츠 -->
+    <div class="relative z-10 max-w-4xl mx-auto px-4 pt-16 pb-14 text-center sm:text-left">
+      <div class="inline-flex items-center gap-2 bg-neutral-800/90 border border-amber-500/40 text-amber-400 text-xs font-bold px-3 py-1.5 rounded-full mb-5 shadow-inner">
+        <span class="text-amber-400">●</span> 가든파이브 라이프동 현장 실측 매물
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-black text-white leading-tight mb-4 tracking-tight">
+        창고형 사무실은<br>
+        <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-400 to-amber-200">시카고부동산</span>
       </h1>
-      <p class="text-slate-600 text-base max-w-xl mx-auto leading-relaxed">
-        사계절 중앙 공조 냉·난방 공급으로 쾌적한 상주 업무와 대량 물품 보관을 동시에 해결하는 특화 유닛 실측 가이드
+      <p class="text-neutral-300 text-sm sm:text-base max-w-xl leading-relaxed font-normal">
+        사계절 중앙 공조 냉·난방 완비. 데스크 사무 업무와 대량 재고 적재를 단 하나의 공간에서 해결하는 특화 유닛 가이드입니다.
       </p>
+
+      <!-- 퀵 스펙 3구 바 (신뢰도 핵심 강조) -->
+      <div class="grid grid-cols-3 gap-2 sm:gap-4 mt-8 pt-6 border-t border-neutral-700/60 max-w-2xl text-left">
+        <div>
+          <div class="text-[11px] text-amber-400 font-bold uppercase tracking-wider">HVAC</div>
+          <div class="text-xs sm:text-sm font-extrabold text-white mt-0.5">중앙 냉·난방 100%</div>
+        </div>
+        <div>
+          <div class="text-[11px] text-amber-400 font-bold uppercase tracking-wider">LOGISTICS</div>
+          <div class="text-xs sm:text-sm font-extrabold text-white mt-0.5">2.7M 램프 직결 하역</div>
+        </div>
+        <div>
+          <div class="text-[11px] text-amber-400 font-bold uppercase tracking-wider">BUSINESS</div>
+          <div class="text-xs sm:text-sm font-extrabold text-white mt-0.5">사업자·세금계산서</div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main class="max-w-4xl mx-auto px-4 pt-8">
+  <!-- 메인 본문 영역 (밝고 선명한 톤으로 전환되어 가독성 극대화) -->
+  <main class="bg-neutral-950 text-neutral-800 pt-8 pb-12">
+    <div class="max-w-4xl mx-auto px-4">
 
-    <!-- 일반 사무실 연계 배너 -->
-    <a href="https://gardenfive-office.gdthedh.workers.dev/" target="_blank" class="block bg-white border-2 border-dashed border-sky-300 hover:border-sky-500 rounded-2xl p-5 mb-8 transition transform hover:-translate-y-0.5 shadow-sm">
-      <div class="flex items-center justify-between">
+      <!-- 일반 오피스 연계 배너 (스마트 테크 스타일) -->
+      <a href="https://gardenfive-office.gdthedh.workers.dev/" target="_blank" class="block bg-gradient-to-r from-neutral-900 to-neutral-800 border border-neutral-700 hover:border-amber-500 rounded-2xl p-5 mb-10 transition duration-200 shadow-xl group">
+        <div class="flex items-center justify-between">
+          <div>
+            <div class="inline-block bg-neutral-800 border border-amber-500/50 text-amber-400 text-[11px] font-extrabold px-2.5 py-0.5 rounded mb-2">
+              오피스 웹사이트 연계
+            </div>
+            <div class="font-black text-white text-base sm:text-lg group-hover:text-amber-400 transition">
+              가든파이브 일반 업무용 사무실도 함께 찾으시나요?
+            </div>
+            <div class="text-xs sm:text-sm text-neutral-400 mt-1">
+              7평 반브릿지 및 일반 소형 독립 오피스 전용 웹사이트 바로가기
+            </div>
+          </div>
+          <div class="text-amber-400 font-black text-2xl ml-4 transform group-hover:translate-x-1 transition">
+            →
+          </div>
+        </div>
+      </a>
+
+      <!-- 매물 리스트 섹션 타이틀 -->
+      <div class="flex items-center justify-between mb-6">
         <div>
-          <span class="bg-sky-600 text-white text-xs font-bold px-2 py-0.5 rounded">연계 안내</span>
-          <div class="font-bold text-slate-900 text-base sm:text-lg mt-1">가든파이브 일반 업무용 사무실도 함께 찾으시나요?</div>
-          <div class="text-sm text-slate-500 mt-0.5">7평 반브릿지 및 일반 소형 오피스 전용 웹사이트 바로가기</div>
+          <span class="text-amber-500 text-xs font-black tracking-widest uppercase">UNITS & INFRA</span>
+          <h2 class="text-xl sm:text-2xl font-black text-white mt-0.5">공간 타입별 현장 실측 안내</h2>
         </div>
-        <div class="text-sky-600 font-bold text-xl ml-4">➔</div>
+        <span class="text-neutral-500 text-xs font-medium">실사진 3장씩 수록</span>
       </div>
-    </a>
 
-    <!-- 핵심 안내 카드 4종 -->
-    <div class="flex items-center justify-between mb-4">
-      <h2 class="text-xl font-extrabold text-slate-900">📦 창고형 사무실 공간 타입별 실측 안내</h2>
+      <!-- 에디토리얼 스타일의 카드 4종 그리드 -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-12">
+
+        <!-- 카드 1: 정방형 -->
+        <a href="square" class="block bg-neutral-900 border border-neutral-800 hover:border-amber-500 rounded-2xl p-6 transition duration-200 transform hover:-translate-y-1 shadow-lg group">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-amber-500/10 border border-amber-500/30 text-amber-400 text-xs font-black px-2.5 py-1 rounded">
+              TYPE A · 밸런스형
+            </span>
+            <span class="text-xs text-neutral-400 bg-neutral-800 px-2.5 py-1 rounded-full font-semibold">
+              📷 실사진 3장
+            </span>
+          </div>
+          <h3 class="text-lg font-black text-white mb-2 group-hover:text-amber-400 transition">
+            (1) 정방형(正方形) 유닛
+          </h3>
+          <p class="text-sm text-neutral-400 leading-relaxed mb-5">
+            가로와 세로 비율이 균형을 이루어 데스크 존과 적재 랙 구역을 5:5로 완벽히 분리 배치하는 대표 모델입니다.
+          </p>
+          <div class="text-amber-400 text-xs font-black flex items-center gap-1">
+            현장 실측 세팅 및 사진 확인하기 ➔
+          </div>
+        </a>
+
+        <!-- 카드 2: 장방형 -->
+        <a href="linear" class="block bg-neutral-900 border border-neutral-800 hover:border-amber-500 rounded-2xl p-6 transition duration-200 transform hover:-translate-y-1 shadow-lg group">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-orange-500/10 border border-orange-500/30 text-orange-400 text-xs font-black px-2.5 py-1 rounded">
+              TYPE B · 적재 극대화형
+            </span>
+            <span class="text-xs text-neutral-400 bg-neutral-800 px-2.5 py-1 rounded-full font-semibold">
+              📷 실사진 3장
+            </span>
+          </div>
+          <h3 class="text-lg font-black text-white mb-2 group-hover:text-orange-400 transition">
+            (2) 장방형(長方形) 유닛
+          </h3>
+          <p class="text-sm text-neutral-400 leading-relaxed mb-5">
+            안쪽으로 깊은 종심형 구조로 양 벽면 고하중 앵글 랙 및 상부 복층 선반 구조를 통해 바닥 대비 최대 적재를 실현합니다.
+          </p>
+          <div class="text-orange-400 text-xs font-black flex items-center gap-1">
+            복층 랙 실사진 및 구조 확인하기 ➔
+          </div>
+        </a>
+
+        <!-- 카드 3: 주차 및 높이 -->
+        <a href="parking" class="block bg-neutral-900 border border-neutral-800 hover:border-amber-500 rounded-2xl p-6 transition duration-200 transform hover:-translate-y-1 shadow-lg group">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-neutral-800 border border-neutral-700 text-neutral-300 text-xs font-black px-2.5 py-1 rounded">
+              LOGISTICS · 물류 인프라
+            </span>
+            <span class="text-xs text-neutral-400 bg-neutral-800 px-2.5 py-1 rounded-full font-semibold">
+              📷 실사진 3장
+            </span>
+          </div>
+          <h3 class="text-lg font-black text-white mb-2 group-hover:text-amber-400 transition">
+            (3) 월 주차 및 주차장 높이
+          </h3>
+          <p class="text-sm text-neutral-400 leading-relaxed mb-5">
+            지하 진입 램프 2.7M 높이 제한 규격, 3.5톤 중형 트럭 하역장 실제 접안 사진 및 입점사 월 정기 주차 등록 절차 안내입니다.
+          </p>
+          <div class="text-amber-400 text-xs font-black flex items-center gap-1">
+            화물 램프 및 하역장 실측 보기 ➔
+          </div>
+        </a>
+
+        <!-- 카드 4: FAQ -->
+        <a href="faq" class="block bg-neutral-900 border border-neutral-800 hover:border-amber-500 rounded-2xl p-6 transition duration-200 transform hover:-translate-y-1 shadow-lg group">
+          <div class="flex items-center justify-between mb-4">
+            <span class="bg-neutral-800 border border-neutral-700 text-neutral-300 text-xs font-black px-2.5 py-1 rounded">
+              ESSENTIAL GUIDE
+            </span>
+            <span class="text-xs text-neutral-400 bg-neutral-800 px-2.5 py-1 rounded-full font-semibold">
+              📄 순수 텍스트
+            </span>
+          </div>
+          <h3 class="text-lg font-black text-white mb-2 group-hover:text-amber-400 transition">
+            (4) Q&A 자주 묻는 질문
+          </h3>
+          <p class="text-sm text-neutral-400 leading-relaxed mb-5">
+            사업자등록 가능 여부, 중앙 공조 냉·난방 가동 방식, 관리비 부과 체계, 대형 화물 전용 엘리베이터 이용 규정 총정리.
+          </p>
+          <div class="text-amber-400 text-xs font-black flex items-center gap-1">
+            계약 전 필수 확인 질문 5가지 보기 ➔
+          </div>
+        </a>
+
+      </div>
+
+      <!-- 하단 중개업소 정보 (다크 테크 스타일) -->
+      <footer class="bg-neutral-900 border border-neutral-800 rounded-2xl p-6 text-xs sm:text-sm text-neutral-400 leading-relaxed">
+        <div class="flex items-center gap-2 mb-3">
+          <span class="text-amber-500 font-black text-base">■</span>
+          <strong class="text-white text-base font-black">시카고공인중개사사무소</strong>
+        </div>
+        <p>• 중개등록번호: 11710-2022-00213</p>
+        <p>• 소재지: 서울특별시 송파구 충민로 66, 가든파이브 라이프 F-9070, 71호</p>
+        <p>• 직통 문의: 010-5024-8456 / 02-6140-8456</p>
+      </footer>
+
     </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
-
-      <!-- 카드 1: 정방형 -->
-      <a href="square" class="block bg-white border border-slate-200 rounded-2xl p-6 hover:border-sky-500 hover:shadow-lg transition transform hover:-translate-y-1">
-        <div class="flex items-center justify-between mb-3">
-          <span class="bg-sky-100 text-sky-800 text-xs font-bold px-2.5 py-1 rounded-md">냉·난방 완비 · 밸런스형</span>
-          <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">📷 현장 사진 3장</span>
-        </div>
-        <h3 class="text-lg font-bold text-slate-900 mb-2">(1) 정방형(正方形) 유닛</h3>
-        <p class="text-sm text-slate-600 line-clamp-2 leading-relaxed mb-4">
-          가로·세로 비율이 균형을 이루어 데스크 존과 적재 랙 구역을 5:5로 분리 배치하기 가장 효율적인 타입입니다.
-        </p>
-        <div class="text-sky-600 text-sm font-bold flex items-center gap-1">
-          상세 실측 및 사진 보기 ➔
-        </div>
-      </a>
-
-      <!-- 카드 2: 장방형 -->
-      <a href="linear" class="block bg-white border border-slate-200 rounded-2xl p-6 hover:border-sky-500 hover:shadow-lg transition transform hover:-translate-y-1">
-        <div class="flex items-center justify-between mb-3">
-          <span class="bg-sky-100 text-sky-800 text-xs font-bold px-2.5 py-1 rounded-md">냉·난방 완비 · 적재 극대화</span>
-          <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">📷 현장 사진 3장</span>
-        </div>
-        <h3 class="text-lg font-bold text-slate-900 mb-2">(2) 장방형(長方形) 유닛</h3>
-        <p class="text-sm text-slate-600 line-clamp-2 leading-relaxed mb-4">
-          안쪽으로 깊은 종심형 구조로 양벽 앵글 랙 및 상부 복층 선반 구조를 통해 바닥 면적 대비 최대 적재를 실현합니다.
-        </p>
-        <div class="text-sky-600 text-sm font-bold flex items-center gap-1">
-          상세 실측 및 사진 보기 ➔
-        </div>
-      </a>
-
-      <!-- 카드 3: 주차 및 높이 -->
-      <a href="parking" class="block bg-white border border-slate-200 rounded-2xl p-6 hover:border-sky-500 hover:shadow-lg transition transform hover:-translate-y-1">
-        <div class="flex items-center justify-between mb-3">
-          <span class="bg-sky-100 text-sky-800 text-xs font-bold px-2.5 py-1 rounded-md">물류 · 하역장 인프라</span>
-          <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">📷 현장 사진 3장</span>
-        </div>
-        <h3 class="text-lg font-bold text-slate-900 mb-2">(3) 월 주차 및 주차장 높이</h3>
-        <p class="text-sm text-slate-600 line-clamp-2 leading-relaxed mb-4">
-          지하 진입 램프 2.7M 높이 제한 규격, 3.5톤 중형 트럭 하역장 진입 여부 및 입점사 월 정기 주차 등록 절차 안내입니다.
-        </p>
-        <div class="text-sky-600 text-sm font-bold flex items-center gap-1">
-          하역장 실측 사진 보기 ➔
-        </div>
-      </a>
-
-      <!-- 카드 4: FAQ -->
-      <a href="faq" class="block bg-white border border-slate-200 rounded-2xl p-6 hover:border-sky-500 hover:shadow-lg transition transform hover:-translate-y-1">
-        <div class="flex items-center justify-between mb-3">
-          <span class="bg-sky-100 text-sky-800 text-xs font-bold px-2.5 py-1 rounded-md">입주 핵심 가이드</span>
-          <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">📄 텍스트 안내</span>
-        </div>
-        <h3 class="text-lg font-bold text-slate-900 mb-2">(4) Q&A 자주 묻는 질문</h3>
-        <p class="text-sm text-slate-600 line-clamp-2 leading-relaxed mb-4">
-          사업자등록 가능 여부, 중앙 공조 냉·난방 가동 방식, 관리비 부과 체계, 화물 엘리베이터 이용 규정 총정리.
-        </p>
-        <div class="text-sky-600 text-sm font-bold flex items-center gap-1">
-          질문 답변 전체 보기 ➔
-        </div>
-      </a>
-
-    </div>
-
-    <!-- 푸터 -->
-    <footer class="bg-slate-900 text-slate-400 rounded-2xl p-6 text-sm leading-relaxed">
-      <strong class="text-white text-base block mb-2">시카고공인중개사사무소</strong>
-      <p>• 중개등록번호: 11710-2022-00213</p>
-      <p>• 소재지: 서울특별시 송파구 충민로 66, 가든파이브 라이프 F-9070, 71호</p>
-      <p>• 문의전화: 010-5024-8456 / 02-6140-8456</p>
-    </footer>
-
   </main>
 
-  <!-- 하단 고정 전화 버튼 -->
-  <div class="fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur border-t border-slate-200 p-3 z-50 flex justify-center">
-    <a href="tel:010-5024-8456" class="w-full max-w-md bg-sky-600 hover:bg-sky-700 text-white font-extrabold text-center py-3.5 rounded-xl shadow-lg transition flex items-center justify-center gap-2">
-      📞 창고형 사무실 실시간 매물 상담하기
+  <!-- 하단 고정 전화 버튼 (블랙 & 앰버 테마) -->
+  <div class="fixed bottom-0 left-0 right-0 bg-neutral-900/95 backdrop-blur border-t border-neutral-800 p-3 z-50 flex justify-center">
+    <a href="tel:010-5024-8456" class="w-full max-w-md bg-amber-500 hover:bg-amber-400 text-neutral-950 font-black text-center py-3.5 rounded-xl shadow-xl shadow-amber-500/20 transition flex items-center justify-center gap-2 text-base">
+      📞 창고형 사무실 실시간 공실·임대료 문의
     </a>
   </div>
 
