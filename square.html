@@ -43,39 +43,6 @@
       </p>
     </div>
 
-    <!-- 핵심 스펙 테이블 -->
-    <div class="bg-white border border-slate-200 rounded-2xl p-5 mb-6 shadow-sm">
-      <h2 class="text-sm font-extrabold text-slate-900 mb-3 flex items-center gap-1.5">
-        <span class="text-sky-600">■</span> 핵심 요약 스펙
-      </h2>
-      <div class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-sm">
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">공간 구조</div>
-          <div class="font-bold text-slate-800">정방형 (정사각 비율)</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">냉·난방 공급</div>
-          <div class="font-bold text-sky-700">중앙 공조 덕트 완비</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">상주 인원</div>
-          <div class="font-bold text-slate-800">1~2인 상시 근무 적합</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">사업자등록</div>
-          <div class="font-bold text-slate-800">일반·간이·법인 가능</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">물류 하역</div>
-          <div class="font-bold text-slate-800">화물 E/V 무단차 직결</div>
-        </div>
-        <div class="bg-slate-50 p-3 rounded-xl border border-slate-100">
-          <div class="text-slate-400 text-xs mb-1">복층 설비</div>
-          <div class="font-bold text-slate-800">호실별 복층 랙 완비</div>
-        </div>
-      </div>
-    </div>
-
     <!-- 이미지 갤러리 (상단 1장 + 하단 2장 좌우 배치) -->
     <section class="mb-6 space-y-3">
       <!-- 1. 상단 대표 사진 (풀와이드) -->
@@ -103,23 +70,102 @@
       </div>
     </section>
 
-    <!-- 공간 상세 안내 박스 -->
-    <div class="bg-white border border-slate-200 rounded-2xl p-6 mb-8 shadow-sm space-y-4">
-      <h3 class="text-base font-extrabold text-slate-900">💡 공간 레이아웃 및 실측 특징</h3>
-      <p class="text-sm text-slate-600 leading-relaxed">
-        • <strong>동선 독립성:</strong> 출입문 측면에 업무용 책상을 배치하고 안쪽과 벽면에 랙을 설치하여, 택배 패킹 공간과 깔끔한 컴퓨터 업무 구역이 서로 간섭받지 않습니다.<br>
-        • <strong>조도 및 작업성:</strong> 일반 지하 창고의 어두운 환경과 달리 천장 조도가 밝아 전자기기 검수, 라벨 작업, 송장 출력에 매우 쾌적합니다.<br>
-        • <strong>사계절 냉난방:</strong> 중앙 공조 냉·난방이 계절별로 안정적으로 순환 공급되어 개별 냉난방기 구매 비용이 들지 않습니다.
-      </p>
-
-      <div class="border-t border-slate-100 pt-4">
-        <h4 class="text-sm font-bold text-slate-800 mb-2">🎯 추천 권장 업종</h4>
-        <div class="flex flex-wrap gap-1.5 text-xs">
-          <span class="bg-sky-50 text-sky-700 px-2.5 py-1 rounded-md font-semibold border border-sky-100">이커머스·스마트스토어</span>
-          <span class="bg-sky-50 text-sky-700 px-2.5 py-1 rounded-md font-semibold border border-sky-100">소형 전자기기·부품 유통</span>
-          <span class="bg-sky-50 text-sky-700 px-2.5 py-1 rounded-md font-semibold border border-sky-100">1인 소호 사무실 겸 전용 물류고</span>
+    <!-- [스크린샷 레이아웃 1] 기본 임대 제원표 -->
+    <div class="bg-white border border-slate-200 rounded-2xl p-6 mb-8 shadow-sm">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="text-xl">📋</span>
+        <h2 class="text-base font-extrabold text-slate-900">기본 임대 제원표</h2>
+      </div>
+      <div class="divide-y divide-slate-100 text-sm">
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">소재 건물</span>
+          <span class="col-span-2 sm:col-span-3 font-semibold text-slate-900">가든파이브 라이프동</span>
+        </div>
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">전용 면적</span>
+          <span class="col-span-2 sm:col-span-3 font-bold text-sky-600">전용 약 7평형</span>
+        </div>
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">임대료 및 관리비</span>
+          <span class="col-span-2 sm:col-span-3 font-bold text-slate-900">보증금·월세 유선 문의 / 관리비 규정 준수</span>
+        </div>
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">사업자 등록</span>
+          <span class="col-span-2 sm:col-span-3 font-bold text-teal-600">가능·세금계산서 발행</span>
+        </div>
+        <div class="py-3.5 grid grid-cols-3 sm:grid-cols-4 items-center">
+          <span class="text-slate-500 font-medium">주요 용도</span>
+          <span class="col-span-2 sm:col-span-3 text-slate-700">온라인 쇼핑몰 재고, 공산품, 계절 물품, 부자재 보관, 작업실</span>
         </div>
       </div>
+    </div>
+
+    <!-- [스크린샷 레이아웃 2] 핵심 특징 1~4번 카드 -->
+    <div class="mb-8">
+      <div class="flex items-center gap-2 mb-4">
+        <span class="text-xl">✨</span>
+        <h2 class="text-base font-extrabold text-slate-900">라이프 창고형 사무실 핵심 특징</h2>
+      </div>
+
+      <div class="space-y-3">
+        <!-- 1 -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm flex items-start gap-4">
+          <span class="bg-sky-100 text-sky-700 font-extrabold text-sm w-7 h-7 rounded-lg flex items-center justify-center shrink-0 mt-0.5">1</span>
+          <div>
+            <h3 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1">지하 주차장·하역장 직결 동선</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              화물차 지하 진입 후 하역 구역에서 짐을 내려 곧바로 호실로 운반할 수 있으며, 구르마(손수레)를 이용해 편리하게 분류 작업이 가능합니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm flex items-start gap-4">
+          <span class="bg-sky-100 text-sky-700 font-extrabold text-sm w-7 h-7 rounded-lg flex items-center justify-center shrink-0 mt-0.5">2</span>
+          <div>
+            <h3 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1">대형 화물 전용 승강기 완비</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              대형 화물 승강기를 통해 각 층 및 호실 앞까지 막힘없이 물품을 논스톱으로 운반할 수 있습니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm flex items-start gap-4">
+          <span class="bg-sky-100 text-sky-700 font-extrabold text-sm w-7 h-7 rounded-lg flex items-center justify-center shrink-0 mt-0.5">3</span>
+          <div>
+            <h3 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1">사업자 등록 지원 & 세금계산서 발행</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              개인 보관뿐만 아니라 법인 및 개인사업자 주소지 등록이 가능하며 임대인이 세금계산서를 발행합니다.
+            </p>
+          </div>
+        </div>
+
+        <!-- 4 -->
+        <div class="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm flex items-start gap-4">
+          <span class="bg-sky-100 text-sky-700 font-extrabold text-sm w-7 h-7 rounded-lg flex items-center justify-center shrink-0 mt-0.5">4</span>
+          <div>
+            <h3 class="font-extrabold text-slate-900 text-sm sm:text-base mb-1">24시간 보안 및 상시 입출고 가능</h3>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              CCTV 상시 관제와 통합 방재 시스템으로 고가 재고도 안심하고 안전하게 보관할 수 있습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- [스크린샷 레이아웃 3] 노란색 진입 높이 확인 경고 박스 -->
+    <div class="bg-amber-50/70 border border-amber-200 rounded-2xl p-5 mb-8 text-sm">
+      <div class="flex items-center gap-1.5 font-extrabold text-amber-900 mb-2">
+        <span>⚠️</span>
+        <span>지하 주차장 차량 진입 높이 확인</span>
+      </div>
+      <p class="text-amber-900/90 leading-relaxed text-xs sm:text-sm mb-3">
+        라이프동 지하 진입로 제한 높이는 <strong class="text-amber-950 font-extrabold">2.3m(최저) ~ 2.7m(최고)</strong>입니다. 스타렉스, 카니발, 저상 탑차는 진입 가능하며, <strong class="text-amber-950 font-extrabold">일반 탑차나 하이탑 화물차의 경우 2.7m 미만</strong>이라면 진입이 가능합니다.
+      </p>
+      <a href="parking" class="inline-flex items-center gap-1 font-bold text-sky-700 hover:text-sky-800 text-xs sm:text-sm underline underline-offset-2">
+        → 건물별 진입 높이 규정 상세 보기
+      </a>
     </div>
 
     <!-- 하단 중개업소 푸터 -->
