@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://warehouse-style-office.pages.dev/sitemap.xml
