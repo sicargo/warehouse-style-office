@@ -13,11 +13,12 @@
   <meta name="keywords" content="가든파이브 창고형 사무실, 가든파이브 7평, 가든파이브 사무실 FAQ, 문정동 사무실, 시카고부동산">
   <meta name="robots" content="index, follow">
 
-  <!-- Open Graph -->
+  <!-- Open Graph (카카오톡 및 SNS 공유 카드) -->
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://warehouse-style-office.pages.dev/faq">
   <meta property="og:title" content="창고형 사무실 입주 FAQ | 시카고부동산">
   <meta property="og:description" content="7평 단일 규격 여부, 중앙 냉난방 가동 시간, 사업자등록 등 핵심 질문 6가지 총정리">
-  <meta property="og:image" content="storage-office-square.jpg">
+  <meta property="og:image" content="https://warehouse-style-office.pages.dev/storage-office-square.jpg">
 
   <!-- Tailwind CSS & Pretendard -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -25,6 +26,64 @@
   <style>
     body { font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif; }
   </style>
+
+  <!-- 구글 검색 로봇용 FAQ 구조화 데이터 (검색창 아코디언 노출 전용) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "일반 지하 창고와 '창고형 사무실'의 결정적 차이는 무엇인가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "일반 지하 창고는 단순 짐 보관 전용 공간으로 냉·난방이 없고 사람이 상주하기 부적합합니다. 반면, 창고형 사무실은 건물 중앙 공조 냉·난방 닥트가 연결되어 있어 실내 온도가 쾌적하게 유지되며, 직원이 상주하여 PC 업무, 고객 CS 상담, 제품 촬영 및 포장/송장 작업을 동시에 진행할 수 있는 합법적 복합 공간입니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "가든파이브 창고형 사무실의 면적은 모두 7평 단일 평수인가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "네, 그렇습니다. 기본 전용 22.68㎡(약 7평) 단일 규격을 기준으로 공급됩니다. 호실 구조나 층별 위치에 따라 약 1평 안팎의 오차는 있을 수 있으나, 가든파이브 규정 및 구조상 옆 호실 벽체를 허물어 14평 등으로 확장 공급하지는 않습니다. (더 넓은 면적이 필요하신 경우 인접한 2개 호실을 나란히 임대하시는 방식을 안내해 드립니다.)"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "사업자등록(일반·간이·법인) 및 통신판매업 신고가 가능한가요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "네, 100% 정상 발급됩니다. 임대인은 임대 사업자등록이 되어 있어 세금계산서를 발행합니다. 몇몇 허가·신고 업종을 제외하면 사업자등록이 가능하며, 임대료에 부가가치세를 별도로 지불하여야 합니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "개별 에어컨이나 온풍기를 따로 구매해서 설치해야 하나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "아닙니다. 전혀 필요 없습니다. 가든파이브 건물 자체 중앙 공조 시스템을 통해 하절기 냉방과 동절기 난방이 기본 가동됩니다. 가동시간은 09:00~19:00(또는 22:00)이며, 테마관 및 층에 따라 가동 시간이 달라질 수 있습니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "대형 화물 전용 엘리베이터 이용 규정과 동선은 어떻게 되나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "각 테마관별로 일반 승객용 엘리베이터 외에 화물 전용 엘리베이터가 상시 분리 운행됩니다. 지하 화물 하역장에서 물품을 내린 후 롤테이너, 핸드카트(대차) 등을 이용해 해당 호실 또는 조업 주차 공간까지 논스톱으로 수평 운반할 수 있습니다."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "보증금, 월 임대료 수준 및 즉시 입주 가능 여부는 어떻게 되나요?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "호실의 층별 위치, 전용 복층 랙 설비 유무에 따라 임대 조건에 차이가 있습니다. 시카고부동산으로 유선 문의 주시면 당일 실시간 공실 현황과 대표님의 입주 일정 및 예산에 가장 알맞은 특화 호실을 즉시 브리핑해 드립니다."
+        }
+      }
+    ]
+  }
+  </script>
 </head>
 <body class="bg-stone-50/60 text-stone-800 antialiased pb-28">
 
@@ -43,7 +102,7 @@
 
   <main class="max-w-3xl mx-auto px-4 pt-6">
 
-    <!-- 페이지 헤더 (6가지 핵심 사항으로 수정) -->
+    <!-- 페이지 헤더 -->
     <div class="mb-8">
       <div class="flex items-center gap-2 mb-2">
         <span class="bg-emerald-100 text-emerald-800 text-xs font-bold px-2.5 py-1 rounded">FAQ</span>
@@ -75,7 +134,7 @@
         </div>
       </div>
 
-      <!-- 질문 2 (신규 추가: 7평 단일 평수 안내) -->
+      <!-- 질문 2 -->
       <div class="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm">
         <div class="flex items-start gap-3">
           <span class="bg-emerald-700 text-white font-extrabold text-sm px-2.5 py-1 rounded-md shrink-0">Q2</span>
@@ -90,7 +149,7 @@
         </div>
       </div>
 
-      <!-- 질문 3 (기존 Q2) -->
+      <!-- 질문 3 -->
       <div class="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm">
         <div class="flex items-start gap-3">
           <span class="bg-emerald-700 text-white font-extrabold text-sm px-2.5 py-1 rounded-md shrink-0">Q3</span>
@@ -105,7 +164,7 @@
         </div>
       </div>
 
-      <!-- 질문 4 (기존 Q3) -->
+      <!-- 질문 4 -->
       <div class="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm">
         <div class="flex items-start gap-3">
           <span class="bg-emerald-700 text-white font-extrabold text-sm px-2.5 py-1 rounded-md shrink-0">Q4</span>
@@ -120,7 +179,7 @@
         </div>
       </div>
 
-      <!-- 질문 5 (기존 Q4) -->
+      <!-- 질문 5 -->
       <div class="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm">
         <div class="flex items-start gap-3">
           <span class="bg-emerald-700 text-white font-extrabold text-sm px-2.5 py-1 rounded-md shrink-0">Q5</span>
@@ -135,7 +194,7 @@
         </div>
       </div>
 
-      <!-- 질문 6 (기존 Q5) -->
+      <!-- 질문 6 -->
       <div class="bg-white border border-stone-200 rounded-2xl p-6 shadow-sm">
         <div class="flex items-start gap-3">
           <span class="bg-emerald-700 text-white font-extrabold text-sm px-2.5 py-1 rounded-md shrink-0">Q6</span>
