@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://warehouse-style-office.pages.dev/sitemap.xml
+Sitemap: https://warehouse-style-office.gdthedh.workers.dev/sitemap.xml
