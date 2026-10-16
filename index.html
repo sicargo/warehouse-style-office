@@ -33,7 +33,7 @@
 </head>
 <body class="bg-stone-50/60 text-stone-800 antialiased pb-28">
 
-  <!-- 상단 네비게이션 (모바일 글자 겹침 및 줄바꿈 방지 적용) -->
+  <!-- 상단 네비게이션 -->
   <nav class="bg-white/95 backdrop-blur border-b border-stone-200 sticky top-0 z-40">
     <div class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between gap-2">
       <div class="flex items-center gap-2 min-w-0">
@@ -46,18 +46,18 @@
     </div>
   </nav>
 
-  <!-- 헤더 -->
-  <header class="bg-white border-b border-stone-200 py-9 sm:py-14">
+  <!-- 헤더 (상단 라인 일치 및 높이 밸런스 정렬 적용) -->
+  <header class="bg-white border-b border-stone-200 py-8 sm:py-12">
     <div class="max-w-4xl mx-auto px-4">
-      <div class="grid grid-cols-1 md:grid-cols-12 gap-7 items-center">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8 items-start">
         
-        <!-- 좌측: 타이틀 및 안내 ("가든파이브 라이프동 현장 안내" 태그 제거 완료) -->
+        <!-- 좌측: 타이틀 및 핵심 안내 -->
         <div class="md:col-span-7 text-left">
-          <h1 class="text-3xl sm:text-4xl font-black text-stone-900 leading-tight mb-3.5 tracking-tight break-keep">
+          <h1 class="text-3xl sm:text-4xl font-black text-stone-900 leading-tight mb-3 tracking-tight break-keep">
             창고형 사무실은<br>
             <span class="text-emerald-700">가든파이브 라이프</span>
           </h1>
-          <p class="text-stone-600 text-sm sm:text-base leading-relaxed mb-5 break-keep">
+          <p class="text-stone-600 text-sm sm:text-base leading-relaxed mb-4 break-keep">
             사계절 중앙 공조 냉·난방이 완벽하게 가동되는 창고형 사무실.<br class="hidden sm:block">
             쾌적한 컴퓨터 데스크 업무와 넉넉한 물품 보관을 한 공간에서 실현합니다.
           </p>
@@ -70,10 +70,10 @@
           </div>
         </div>
 
-        <!-- 우측: 액자형 대표 이미지 카드 -->
+        <!-- 우측: 액자형 대표 이미지 카드 (좌측과 높이 밸런스 최적화) -->
         <div class="md:col-span-5">
           <div class="relative bg-stone-100 p-2.5 rounded-2xl border border-stone-200 shadow-md">
-            <img src="storage-office-square.jpg" alt="가든파이브 창고형 사무실 공간 연출 예시" class="w-full h-52 sm:h-64 object-cover rounded-xl">
+            <img src="storage-office-square.jpg" alt="가든파이브 창고형 사무실 공간 연출 예시" class="w-full h-48 sm:h-[220px] object-cover rounded-xl">
             <div class="absolute bottom-4 right-4 bg-black/35 backdrop-blur-md px-2.5 py-1 rounded-lg border border-white/15 text-[11px] text-white/80 font-medium flex items-center gap-1.5 shadow-sm">
               <span>공간 연출 이미지</span>
               <span class="text-white/40">·</span>
